@@ -26,6 +26,8 @@ html, body {
     padding: 5px 0;
     box-sizing: border-box;
     color: white;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 
 .Sidebar__header {

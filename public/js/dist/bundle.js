@@ -9843,7 +9843,7 @@ function updateActiveTable(defaultModel, index) {
                     return {
                         key: colName,
                         name: colName,
-                        resizable: true
+                        width: 200
                     };
                 })));
             }
@@ -9880,7 +9880,7 @@ function runQuery(defaultModel, query) {
                     return {
                         key: colName,
                         name: colName,
-                        resizable: true
+                        width: 200
                     };
                 })));
             }
